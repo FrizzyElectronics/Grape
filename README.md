@@ -1,2 +1,2 @@
 # Grape
-Arduino Compatible de Fabricacion Española
+Placa compatible con Arduino Uno de fabricación española. 
