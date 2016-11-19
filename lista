@@ -1,0 +1,95 @@
+Partlist
+
+Exported from Placa frizzy.brd at 04/09/2016 13:42
+
+EAGLE Version 7.3.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value           Package            Library                    Position (inch)       Orientation
+
+C1       0.1uF           0805               SparkFun-Passives          (2.575 2.625)         R0
+C2       0.1uF           0805               SparkFun-Passives          (2.1875 2.325)        R0
+C3       10uF            EIA3216            SparkFun-Capacitors        (2.15 2.025)          R0
+C4       0.1uF           0805               SparkFun-Passives          (2.1875 2.575)        R0
+C5       0.1uF           0603-CAP           SparkFun-Capacitors        (3.3875 1.4125)       R0
+C6       0.1uF           0603-CAP           SparkFun-Capacitors        (2.975 2.175)         R0
+C7       100u            PANASONIC_D        SparkFun-Capacitors        (3.025 1.275)         R180
+C8       3.3n            0805               SparkFun-Passives          (3.2375 1.75)         R180
+C9       100u            PANASONIC_D        SparkFun-Capacitors        (2.4875 1.625)        R90
+C10      100n            0805               SparkFun-Passives          (3.2375 1.825)        R180
+C11      100n            0805               SparkFun-Passives          (3.2375 1.975)        R180
+C12      1uF             0603-CAP           SparkFun-Capacitors        (3.3875 1.15)         R180
+C13      100nF           0603-CAP           SparkFun-Capacitors        (3.3875 1.2375)       R180
+C14      10nF            0603-CAP           SparkFun-Capacitors        (3.3875 1.325)        R180
+C15      100n            0805               SparkFun-Passives          (3.2375 1.575)        R180
+C16      10n             0805               SparkFun-Passives          (2.6625 1.5625)       R270
+C19      47pF            0805               SparkFun-Passives          (2.3125 2.4)          R180
+C20      47pF            0805               SparkFun-Passives          (2.3125 2.5)          R180
+C22      100n            0805               SparkFun-Passives          (2.475 1.825)         R180
+C23      100n            0805               SparkFun-Passives          (2.4125 2.25)         R0
+C24      100n            0805               SparkFun-Passives          (2.425 1.4125)        R0
+D1       MBRA140         SMA-DIODE          SparkFun-DiscreteSemi      (2.225 1.8625)        R0
+D2       YELLOW          LED-0603           SparkFun-LED               (2.9875 2.6125)       R0
+D4       PURPLE          LED-0603           SparkFun-LED               (4.25 2.15)           R270
+F2       500mA           1812               adafruit                   (2.1375 2.175)        R0
+IC2      LM358D          SO08               linear                     (2.5375 2.0875)       R270
+JP1                      1X03               adafruit                   (4.4 2.575)           R90
+JP2      USB             USB-MICROB         SparkFun-Connectors        (1.975 2.4375)        R270
+JP3      ARDUINO_R3      ARDUINO_R3         SparkFun-Boards            (1.9 0.85)            R0
+JP5                      1X03               adafruit                   (3.9 2.575)           R90
+JP6                      1X03               adafruit                   (3.4 2.575)           R90
+JP7                      1X03               adafruit                   (4.3 2.575)           R90
+JP8                      1X03               adafruit                   (3.8 2.575)           R90
+JP9                      1X03               adafruit                   (3.3 2.575)           R90
+JP10                     1X03               adafruit                   (4.2 2.575)           R90
+JP11                     1X03               adafruit                   (3.7 2.575)           R90
+JP12                     1X03               adafruit                   (3.2 2.575)           R90
+JP13                     1X03               adafruit                   (4.1 2.575)           R90
+JP14                     1X03               adafruit                   (3.6 2.575)           R90
+JP15                     1X03               adafruit                   (3.1 2.575)           R90
+JP16                     1X03               adafruit                   (4 2.575)             R90
+JP17                     1X03               adafruit                   (3.5 2.575)           R90
+JP18                     1X03               adafruit                   (3.95 1.25)           R270
+JP19     POWER_JACK      POWER_JACK_PTH     SparkFun-Connectors        (1.8 1.15)            R270
+JP20                     1X03               adafruit                   (4.25 1.25)           R270
+JP21                     1X03               adafruit                   (4.15 1.25)           R270
+JP22                     1X03               adafruit                   (3.55 1.25)           R270
+JP23                     1X03               adafruit                   (3.65 1.25)           R270
+JP24                     1X03               adafruit                   (3.75 1.25)           R270
+JP25                     1X03               adafruit                   (3.85 1.25)           R270
+JP26                     1X03               adafruit                   (4.05 1.25)           R270
+JP27     i2C             JST-4-PTH          SparkFun-Connectors        (4.4 1.55)            R270
+L1       10uH            NPI75C             SparkFun-Passives          (2.685 1.2975)        R0
+L2       60R 100M        0805               SparkFun-Passives          (3.2375 1.6625)       R0
+LED1     RED             CHIP-LED0805       adafruit                   (2.825 2.4625)        R90
+LED2     GREEN           CHIP-LED0805       adafruit                   (2.825 2.3875)        R90
+Q1       2N7002PW        SOT323             SparkFun-DiscreteSemi      (2.85 2.2475)         R270
+Q4       FDN340P         SUPER-SOT3         transistor-power           (2.8 2.0875)          R90
+Q5       FDN340P         SUPER-SOT3         transistor-power           (2.8 1.95)            R90
+R1       1k              0805               SparkFun-Passives          (2.975 2.3875)        R180
+R2       1k              0805               SparkFun-Passives          (2.9125 2.6125)       R90
+R3       10k             0805               SparkFun-Passives          (3.25 1.225)          R90
+R4       1k              0805               SparkFun-Passives          (2.975 2.4625)        R180
+R5       1k              0805               SparkFun-Passives          (4.3625 2.35)         R90
+R6       1k              0805               SparkFun-Passives          (4.2875 2.35)         R90
+R7       5.6K 1%         0805               SparkFun-Passives          (2.9625 1.475)        R270
+R8       1k              0805               SparkFun-Passives          (4.25 2.075)          R0
+R9       6.8k            0805               SparkFun-Passives          (3.3625 1.7625)       R90
+R10      1K 1%           0805               SparkFun-Passives          (3.05 1.475)          R90
+R11      100k            0805               SparkFun-Passives          (3.2375 1.9)          R180
+R12      27              0805               SparkFun-Passives          (2.1875 2.5)          R0
+R13      27              0805               SparkFun-Passives          (2.1875 2.4)          R0
+R14      10k             0805               SparkFun-Passives          (2.7375 2.2475)       R270
+R15      10k             0805               SparkFun-Passives          (2.975 2.2625)        R180
+R16      10k             0805               SparkFun-Passives          (2.975 1.9125)        R180
+R17      10k             0805               SparkFun-Passives          (2.475 1.9)           R180
+R18      10k             0805               SparkFun-Passives          (2.6125 1.9)          R180
+R20      10k             0805               SparkFun-Passives          (2.975 2.05)          R180
+S1       ON-OFF          SWITCH-SPST-SMD-A  SparkFun-Electromechanical (1.9625 1.85)         R90
+S2       RESET           TACTILE-PTH-SIDEEZ SparkFun-Electromechanical (2.69936073 0.94802104) R0
+U$1      MP2307SO-08     SO-08              MP2307                     (2.9375 1.7)          R270
+U1       FTS31XS-U       SSOP20_L           SparkFun-DigitalIC         (2.55 2.4375)         R180
+U2       AMS1117-3.3     SOT223             SparkFun-PowerIC           (2.15 1.5)            R90
+U4       ATMEGA328P_TQFP TQFP32-08          SparkFun-DigitalIC         (3.7625 1.9375)       R225
+Y1       16MHZ           RESONATOR-SMD      SparkFun-FreqCtrl          (3.8875 2.185)        R135

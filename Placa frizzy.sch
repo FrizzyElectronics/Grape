@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10051,7 +10051,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="JP21" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
-<part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="C22" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100n"/>
@@ -10105,6 +10104,32 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="16MHZ" value="16MHZ"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY20" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY21" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY19" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY22" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY23" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY24" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY25" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY26" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY27" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY28" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY29" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY30" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY31" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY32" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY33" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY34" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY35" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY36" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY37" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY38" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY39" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY40" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY41" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21793,7 +21818,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="R8" gate="G$1" x="78.74" y="7.62" rot="R90"/>
 <instance part="D4" gate="G$1" x="78.74" y="-5.08"/>
 <instance part="GND44" gate="1" x="78.74" y="-15.24"/>
-<instance part="SUPPLY2" gate="G$1" x="190.5" y="-5.08"/>
 <instance part="S2" gate="G$1" x="88.9" y="111.76"/>
 <instance part="JP27" gate="G$1" x="63.5" y="67.31" rot="R180"/>
 <instance part="GND19" gate="1" x="57.15" y="57.15"/>
@@ -21805,6 +21829,10 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="SUPPLY15" gate="G$1" x="222.25" y="109.22"/>
 <instance part="SUPPLY16" gate="G$1" x="226.06" y="109.22"/>
 <instance part="Y1" gate="G$1" x="114.3" y="83.82" rot="R270"/>
+<instance part="SUPPLY6" gate="G$1" x="106.68" y="129.54"/>
+<instance part="SUPPLY7" gate="G$1" x="114.3" y="128.27"/>
+<instance part="SUPPLY20" gate="G$1" x="104.14" y="2.54"/>
+<instance part="SUPPLY21" gate="G$1" x="78.74" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -22215,6 +22243,43 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="JP3" gate="G$1" pin="IOREF"/>
 <wire x1="232.41" y1="115.57" x2="245.11" y2="115.57" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="124.46" x2="106.68" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="SUPPLY6" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="U4" gate="U$1" pin="AVCC"/>
+<wire x1="119.38" y1="106.68" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="106.68" x2="114.3" y2="128.27" width="0.1524" layer="91"/>
+<pinref part="U4" gate="U$1" pin="VCC@4"/>
+<wire x1="119.38" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="104.14" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
+<junction x="114.3" y="106.68"/>
+<pinref part="U4" gate="U$1" pin="VCC@6"/>
+<wire x1="119.38" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="101.6" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
+<junction x="114.3" y="104.14"/>
+<pinref part="SUPPLY7" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="-2.54" x2="93.98" y2="0" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="0" x2="104.14" y2="0" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="0" x2="104.14" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="0" x2="104.14" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="104.14" y="0"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="0" x2="114.3" y2="0" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="0" x2="114.3" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="SUPPLY20" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="17.78" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="SUPPLY21" gate="G$1" pin="5V"/>
+</segment>
 </net>
 <net name="DTR" class="0">
 <segment>
@@ -22264,52 +22329,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="U4" gate="U$1" pin="ADC7"/>
 <wire x1="167.64" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
 <label x="193.04" y="93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="124.46" x2="106.68" y2="129.54" width="0.1524" layer="91"/>
-<label x="106.68" y="129.54" size="1.016" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U4" gate="U$1" pin="AVCC"/>
-<wire x1="119.38" y1="106.68" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="106.68" x2="114.3" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U4" gate="U$1" pin="VCC@4"/>
-<wire x1="119.38" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="104.14" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
-<junction x="114.3" y="106.68"/>
-<pinref part="U4" gate="U$1" pin="VCC@6"/>
-<wire x1="119.38" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="101.6" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
-<junction x="114.3" y="104.14"/>
-<label x="114.3" y="129.54" size="1.016" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="-2.54" x2="93.98" y2="0" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="0" x2="104.14" y2="0" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="0" x2="104.14" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="0" x2="104.14" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="104.14" y="0"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="0" x2="114.3" y2="0" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="0" x2="114.3" y2="-2.54" width="0.1524" layer="91"/>
-<label x="104.14" y="2.54" size="1.016" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="17.78" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
-<label x="78.74" y="17.78" size="1.016" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="180.34" y1="-7.62" x2="190.5" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="-7.62" x2="190.5" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-7.62" x2="180.34" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="G$1" pin="5V"/>
-<label x="180.34" y="-5.08" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -34169,6 +34188,28 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="GND46" gate="1" x="40.64" y="-40.64"/>
 <instance part="JP21" gate="A" x="78.74" y="-30.48"/>
 <instance part="GND47" gate="1" x="68.58" y="-40.64"/>
+<instance part="SUPPLY2" gate="G$1" x="40.64" y="63.5" rot="R90"/>
+<instance part="SUPPLY19" gate="G$1" x="68.58" y="63.5" rot="R90"/>
+<instance part="SUPPLY22" gate="G$1" x="96.52" y="63.5" rot="R90"/>
+<instance part="SUPPLY23" gate="G$1" x="124.46" y="63.5" rot="R90"/>
+<instance part="SUPPLY24" gate="G$1" x="152.4" y="63.5" rot="R90"/>
+<instance part="SUPPLY25" gate="G$1" x="152.4" y="40.64" rot="R90"/>
+<instance part="SUPPLY26" gate="G$1" x="124.46" y="40.64" rot="R90"/>
+<instance part="SUPPLY27" gate="G$1" x="96.52" y="40.64" rot="R90"/>
+<instance part="SUPPLY28" gate="G$1" x="68.58" y="40.64" rot="R90"/>
+<instance part="SUPPLY29" gate="G$1" x="40.64" y="17.78" rot="R90"/>
+<instance part="SUPPLY30" gate="G$1" x="68.58" y="17.78" rot="R90"/>
+<instance part="SUPPLY31" gate="G$1" x="96.52" y="17.78" rot="R90"/>
+<instance part="SUPPLY32" gate="G$1" x="124.46" y="17.78" rot="R90"/>
+<instance part="SUPPLY33" gate="G$1" x="152.4" y="17.78" rot="R90"/>
+<instance part="SUPPLY34" gate="G$1" x="152.4" y="-7.62" rot="R90"/>
+<instance part="SUPPLY35" gate="G$1" x="124.46" y="-7.62" rot="R90"/>
+<instance part="SUPPLY36" gate="G$1" x="96.52" y="-7.62" rot="R90"/>
+<instance part="SUPPLY37" gate="G$1" x="68.58" y="-7.62" rot="R90"/>
+<instance part="SUPPLY38" gate="G$1" x="40.64" y="-7.62" rot="R90"/>
+<instance part="SUPPLY39" gate="G$1" x="68.58" y="-30.48" rot="R90"/>
+<instance part="SUPPLY40" gate="G$1" x="40.64" y="40.64" rot="R90"/>
+<instance part="SUPPLY41" gate="G$1" x="40.64" y="-30.48" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -34447,118 +34488,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <label x="152.4" y="-5.08" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="48.26" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
-<label x="40.64" y="63.5" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP7" gate="A" pin="2"/>
-<wire x1="76.2" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
-<label x="68.58" y="63.5" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP10" gate="A" pin="2"/>
-<wire x1="104.14" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
-<label x="96.52" y="63.5" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP13" gate="A" pin="2"/>
-<wire x1="124.46" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
-<label x="124.46" y="63.5" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP16" gate="A" pin="2"/>
-<wire x1="160.02" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
-<label x="152.4" y="63.5" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP5" gate="A" pin="2"/>
-<wire x1="48.26" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
-<label x="40.64" y="40.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP8" gate="A" pin="2"/>
-<wire x1="76.2" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
-<label x="68.58" y="40.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP11" gate="A" pin="2"/>
-<wire x1="104.14" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
-<label x="96.52" y="40.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP14" gate="A" pin="2"/>
-<wire x1="132.08" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
-<label x="124.46" y="40.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP17" gate="A" pin="2"/>
-<wire x1="160.02" y1="40.64" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
-<label x="152.4" y="40.64" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP6" gate="A" pin="2"/>
-<wire x1="48.26" y1="17.78" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
-<label x="40.64" y="17.78" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP9" gate="A" pin="2"/>
-<wire x1="76.2" y1="17.78" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
-<label x="68.58" y="17.78" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP12" gate="A" pin="2"/>
-<wire x1="104.14" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
-<label x="96.52" y="17.78" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP15" gate="A" pin="2"/>
-<wire x1="132.08" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
-<label x="124.46" y="17.78" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP18" gate="A" pin="2"/>
-<wire x1="160.02" y1="17.78" x2="152.4" y2="17.78" width="0.1524" layer="91"/>
-<label x="152.4" y="17.78" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP22" gate="A" pin="2"/>
-<wire x1="48.26" y1="-7.62" x2="40.64" y2="-7.62" width="0.1524" layer="91"/>
-<label x="40.64" y="-7.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP23" gate="A" pin="2"/>
-<wire x1="76.2" y1="-7.62" x2="68.58" y2="-7.62" width="0.1524" layer="91"/>
-<label x="68.58" y="-7.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP24" gate="A" pin="2"/>
-<wire x1="104.14" y1="-7.62" x2="96.52" y2="-7.62" width="0.1524" layer="91"/>
-<label x="96.52" y="-7.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP25" gate="A" pin="2"/>
-<wire x1="132.08" y1="-7.62" x2="124.46" y2="-7.62" width="0.1524" layer="91"/>
-<label x="124.46" y="-7.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP26" gate="A" pin="2"/>
-<wire x1="160.02" y1="-7.62" x2="152.4" y2="-7.62" width="0.1524" layer="91"/>
-<label x="152.4" y="-7.62" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP20" gate="A" pin="2"/>
-<wire x1="48.26" y1="-30.48" x2="40.64" y2="-30.48" width="0.1524" layer="91"/>
-<label x="40.64" y="-30.48" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP21" gate="A" pin="2"/>
-<wire x1="76.2" y1="-30.48" x2="68.58" y2="-30.48" width="0.1524" layer="91"/>
-<label x="68.58" y="-30.48" size="1.4224" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="AD6" class="0">
 <segment>
 <pinref part="JP21" gate="A" pin="1"/>
@@ -34571,6 +34500,118 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="JP20" gate="A" pin="1"/>
 <wire x1="48.26" y1="-27.94" x2="40.64" y2="-27.94" width="0.1524" layer="91"/>
 <label x="40.64" y="-27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="48.26" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP7" gate="A" pin="2"/>
+<wire x1="76.2" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SUPPLY19" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP10" gate="A" pin="2"/>
+<wire x1="104.14" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SUPPLY22" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP13" gate="A" pin="2"/>
+<wire x1="124.46" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SUPPLY23" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP16" gate="A" pin="2"/>
+<wire x1="160.02" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SUPPLY24" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP17" gate="A" pin="2"/>
+<wire x1="160.02" y1="40.64" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="SUPPLY25" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP14" gate="A" pin="2"/>
+<wire x1="132.08" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="SUPPLY26" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP11" gate="A" pin="2"/>
+<wire x1="104.14" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="SUPPLY27" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP8" gate="A" pin="2"/>
+<wire x1="76.2" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="SUPPLY28" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="2"/>
+<wire x1="48.26" y1="17.78" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="SUPPLY29" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP9" gate="A" pin="2"/>
+<wire x1="76.2" y1="17.78" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="SUPPLY30" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP12" gate="A" pin="2"/>
+<wire x1="104.14" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="SUPPLY31" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP15" gate="A" pin="2"/>
+<wire x1="132.08" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="SUPPLY32" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP18" gate="A" pin="2"/>
+<wire x1="160.02" y1="17.78" x2="152.4" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="SUPPLY33" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP26" gate="A" pin="2"/>
+<wire x1="160.02" y1="-7.62" x2="152.4" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="SUPPLY34" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP25" gate="A" pin="2"/>
+<wire x1="132.08" y1="-7.62" x2="124.46" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="SUPPLY35" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP24" gate="A" pin="2"/>
+<wire x1="104.14" y1="-7.62" x2="96.52" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="SUPPLY36" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP23" gate="A" pin="2"/>
+<wire x1="76.2" y1="-7.62" x2="68.58" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="SUPPLY37" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP22" gate="A" pin="2"/>
+<wire x1="48.26" y1="-7.62" x2="40.64" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="SUPPLY38" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP21" gate="A" pin="2"/>
+<wire x1="76.2" y1="-30.48" x2="68.58" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY39" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="2"/>
+<wire x1="48.26" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="SUPPLY40" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="JP20" gate="A" pin="2"/>
+<wire x1="48.26" y1="-30.48" x2="40.64" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY41" gate="G$1" pin="5V"/>
 </segment>
 </net>
 </nets>
