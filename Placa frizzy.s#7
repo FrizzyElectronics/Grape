@@ -15444,8 +15444,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$2" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="36.83" y1="29.21" x2="76.2" y2="29.21" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="29.21" x2="76.2" y2="31.75" width="0.1524" layer="91"/>
+<pinref part="U1" gate="U$1" pin="CBUS1"/>
+<wire x1="36.83" y1="29.21" x2="76.2" y2="29.21" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
