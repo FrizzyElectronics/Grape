@@ -17,9 +17,13 @@ Grape es un Arduino&trade; compatible de fabricacion y diseño español. Destaca
   - 8 pines analogicos
   - Compatible con los shields de Arduino&trade; y con Arduino&trade; IDE
  
+
+
+![Frizzy Grape](http://i.imgur.com/auyfGKR.png)  
+
 ## Documentacion 
 
-* **/Hardware** - Archivos de diseño en kiCad e Eagle, esquema en PDF
+* **/Hardware** - Archivos de diseño en KiCad e Eagle, esquema en PDF
 * **/Production** - Gerbers, BOM
 * **/Design** - Logos, SVG 
 
@@ -29,7 +33,7 @@ Licencia
 
 Este producto es  **open source**! 
 
-Por favor, revisa el archivo LICENSE.md para más información. 
+Por favor, revisa el archivo [LICENSE.md](https://github.com/FrizzyElectronics/Grape/blob/master/License.md) para más información. 
 
 Si tiene alguna duda acerca del uso de esta licencia contatanos a traves de  info@frizzy.es
 
