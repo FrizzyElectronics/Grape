@@ -260,8 +260,8 @@ $EndDescr
 $Sheet
 S 6450 1200 2150 1050
 U 5A5B8064
-F0 "usb_communication" 60
-F1 "usb_communication.sch" 60
+F0 "Usb_communication" 60
+F1 "Usb_communication.sch" 60
 $EndSheet
 $Sheet
 S 3150 1250 2100 1050
