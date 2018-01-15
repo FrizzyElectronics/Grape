@@ -1,0 +1,95 @@
+Partlist
+
+Exported from Grape.sch at 15/1/18 12:03
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value           Device                    Package             Library                    Sheet
+
+C1       0.1uF           CAP0805                   0805                SparkFun-Passives          1
+C2       0.1uF           CAP0805                   0805                SparkFun-Passives          1
+C3       10uF            10UF-16V-10%(TANT)        EIA3216             SparkFun-Capacitors        1
+C4       0.1uF           CAP0805                   0805                SparkFun-Passives          1
+C5       0.1uF           CAP0603-CAP               0603-CAP            SparkFun-Capacitors        2
+C6       0.1uF           CAP0603-CAP               0603-CAP            SparkFun-Capacitors        2
+C7       100u            47UF-50V-20%(ELECT)       PANASONIC_D         SparkFun-Capacitors        3
+C8       3.3n            CAP0805                   0805                SparkFun-Passives          3
+C9       100u            47UF-50V-20%(ELECT)       PANASONIC_D         SparkFun-Capacitors        3
+C10      100n            CAP0805                   0805                SparkFun-Passives          3
+C11      100n            CAP0805                   0805                SparkFun-Passives          3
+C12      1uF             CAP0603-CAP               0603-CAP            SparkFun-Capacitors        2
+C13      100nF           CAP0603-CAP               0603-CAP            SparkFun-Capacitors        2
+C14      10nF            CAP0603-CAP               0603-CAP            SparkFun-Capacitors        2
+C15      100n            CAP0805                   0805                SparkFun-Passives          3
+C16      10n             CAP0805                   0805                SparkFun-Passives          3
+C19      47pF            CAP0805                   0805                SparkFun-Passives          1
+C20      47pF            CAP0805                   0805                SparkFun-Passives          1
+C22      100n            CAP0805                   0805                SparkFun-Passives          3
+C23      100n            CAP0805                   0805                SparkFun-Passives          3
+C24      100n            CAP0805                   0805                SparkFun-Passives          3
+D1       MBRA140         MBRA140                   SMA-DIODE           SparkFun-DiscreteSemi      3
+D2       YELLOW          LED-BLUE0603              LED-0603            SparkFun-LED               2
+D4       PURPLE          LED0603                   LED-0603            SparkFun-LED               2
+F2       500mA           PTCFUSE-1812              1812                adafruit                   1
+IC2      LM358D          LM358D                    SO08                linear                     3
+JP1                      PINHD-1X3                 1X03                adafruit                   4
+JP3      ARDUINO_R3      ARDUINO_R3                ARDUINO_R3          SparkFun-Boards            2
+JP4                      USB_MICROB_PLUGCONN-11752 USB-B-MICRO-SMD_V03 SparkFun-Connectors        1
+JP5                      PINHD-1X3                 1X03                adafruit                   4
+JP6                      PINHD-1X3                 1X03                adafruit                   4
+JP7                      PINHD-1X3                 1X03                adafruit                   4
+JP8                      PINHD-1X3                 1X03                adafruit                   4
+JP9                      PINHD-1X3                 1X03                adafruit                   4
+JP10                     PINHD-1X3                 1X03                adafruit                   4
+JP11                     PINHD-1X3                 1X03                adafruit                   4
+JP12                     PINHD-1X3                 1X03                adafruit                   4
+JP13                     PINHD-1X3                 1X03                adafruit                   4
+JP14                     PINHD-1X3                 1X03                adafruit                   4
+JP15                     PINHD-1X3                 1X03                adafruit                   4
+JP16                     PINHD-1X3                 1X03                adafruit                   4
+JP17                     PINHD-1X3                 1X03                adafruit                   4
+JP18                     PINHD-1X3                 1X03                adafruit                   4
+JP19     POWER_JACK      POWER_JACKPTH             POWER_JACK_PTH      SparkFun-Connectors        3
+JP20                     PINHD-1X3                 1X03                adafruit                   4
+JP21                     PINHD-1X3                 1X03                adafruit                   4
+JP22                     PINHD-1X3                 1X03                adafruit                   4
+JP23                     PINHD-1X3                 1X03                adafruit                   4
+JP24                     PINHD-1X3                 1X03                adafruit                   4
+JP25                     PINHD-1X3                 1X03                adafruit                   4
+JP26                     PINHD-1X3                 1X03                adafruit                   4
+JP27     i2C             M04JST-PTH                JST-4-PTH           SparkFun-Connectors        2
+L1       10uH            INDUCTORNPI75             NPI75C              SparkFun-Passives          3
+L2       60R 100M        INDUCTOR0805              0805                SparkFun-Passives          3
+LED1     RED             LEDCHIP-LED0805           CHIP-LED0805        adafruit                   1
+LED2     GREEN           LEDCHIP-LED0805           CHIP-LED0805        adafruit                   1
+Q1       2N7002PW        MOSFET-NCHANNEL2N7002PW   SOT323              SparkFun-DiscreteSemi      1
+Q4       FDN340P         FDN360P                   SUPER-SOT3          transistor-power           3
+Q5       FDN340P         FDN360P                   SUPER-SOT3          transistor-power           3
+R1       1k              RESISTOR0805-RES          0805                SparkFun-Passives          1
+R2       1k              RESISTOR0805-RES          0805                SparkFun-Passives          2
+R3       10k             RESISTOR0805-RES          0805                SparkFun-Passives          2
+R4       1k              RESISTOR0805-RES          0805                SparkFun-Passives          1
+R5       1k              RESISTOR0805-RES          0805                SparkFun-Passives          1
+R6       1k              RESISTOR0805-RES          0805                SparkFun-Passives          1
+R7       5.6K 1%         RESISTOR0805-RES          0805                SparkFun-Passives          3
+R8       1k              RESISTOR0805-RES          0805                SparkFun-Passives          2
+R9       6.8k            RESISTOR0805-RES          0805                SparkFun-Passives          3
+R10      1K 1%           RESISTOR0805-RES          0805                SparkFun-Passives          3
+R11      100k            RESISTOR0805-RES          0805                SparkFun-Passives          3
+R12      27              RESISTOR0805-RES          0805                SparkFun-Passives          1
+R13      27              RESISTOR0805-RES          0805                SparkFun-Passives          1
+R14      10k             RESISTOR0805-RES          0805                SparkFun-Passives          1
+R15      10k             RESISTOR0805-RES          0805                SparkFun-Passives          1
+R16      10k             RESISTOR0805-RES          0805                SparkFun-Passives          3
+R17      10k             RESISTOR0805-RES          0805                SparkFun-Passives          3
+R18      10k             RESISTOR0805-RES          0805                SparkFun-Passives          3
+R20      10k             RESISTOR0805-RES          0805                SparkFun-Passives          3
+S1       ON-OFF          SWITCH-SPDT-SMD-A         SWITCH-SPST-SMD-A   SparkFun-Electromechanical 3
+S2       RESET           SWITCH-MOMENTARY-2SIDE_EZ TACTILE-PTH-SIDEEZ  SparkFun-Electromechanical 2
+U$1      MP2307SO-08     MP2307SO-08               SO-08               MP2307                     3
+U1       FTS31XS-U       FT231XS                   SSOP20_L            SparkFun-DigitalIC         1
+U2       AMS1117-3.3     V_REG_LM1117SOT223        SOT223              SparkFun-PowerIC           3
+U4       ATMEGA328P_TQFP ATMEGA328P_TQFP           TQFP32-08           SparkFun-DigitalIC         2
+Y1       16MHZ           RESONATOR16MHZ            RESONATOR-SMD       SparkFun-FreqCtrl          2

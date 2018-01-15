@@ -258,25 +258,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6450 1250 2150 1050
+S 6450 2300 2150 1050
 U 5A5B8064
 F0 "Usb_communication" 60
 F1 "Usb_communication.sch" 60
 $EndSheet
 $Sheet
-S 3150 1250 2100 1050
+S 3150 2300 2100 1050
 U 5A5B892F
 F0 "Sockets_and_connectors" 60
 F1 "Sockets_and_connectors.sch" 60
 $EndSheet
 $Sheet
-S 3100 3150 2150 1100
+S 3100 4200 2150 1100
 U 5A5B893E
 F0 "Microcontroller" 60
 F1 "Microcontroller.sch" 60
 $EndSheet
 $Sheet
-S 6500 3200 2150 1050
+S 6500 4250 2150 1050
 U 5A5B8957
 F0 "Power" 60
 F1 "Power.sch" 60
