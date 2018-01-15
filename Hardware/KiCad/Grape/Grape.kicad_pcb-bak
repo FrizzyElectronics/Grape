@@ -4007,7 +4007,7 @@
     (pad "" np_thru_hole circle (at -19.05 24.13) (size 3.175 3.175) (drill 3.175) (layers *.Cu *.Mask)
       (solder_mask_margin 0.1016))
     (model "Modelos 3D descargados/Headers.wrl"
-      (at (xyz -25.245 -10.47 0))
+      (at (xyz -25 -10 -1))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
