@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/david/Escritorio/Github/Grape/Hardware/KiCad/Grape/Grape.sch)
-    (date "lun 15 ene 2018 18:44:04 CET")
+    (date "dom 04 feb 2018 13:51:50 CET")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -91,7 +91,7 @@
       (tstamp 5A5B9670))
     (comp (ref J1)
       (value USB_MICROB)
-      (footprint Connectors_USB:USB_Micro-B_Molex_47346-0001)
+      (footprint Connectors_USB:USB_Micro-B_Molex-105017-0001)
       (libsource (lib SparkFun-Connectors) (part USB_MICROB_PLUGCONN-11752))
       (sheetpath (names /Usb_communication/) (tstamps /5A5B8064/))
       (tstamp 5A5B97D7))
@@ -987,12 +987,12 @@
   (libraries
     (library (logical conn)
       (uri /home/david/Escritorio/Electronics/kicad_simbolos/conn.lib))
-    (library (logical device)
-      (uri /home/david/Escritorio/Electronics/kicad_simbolos/device.lib))
     (library (logical frizzy_ICs)
       (uri /home/david/Escritorio/Electronics/kicad_simbolos/frizzy_ICs.lib))
     (library (logical ftdi)
       (uri /home/david/Escritorio/Electronics/kicad_simbolos/ftdi.lib))
+    (library (logical device)
+      (uri /home/david/Escritorio/Electronics/kicad_simbolos/device.lib))
     (library (logical linear)
       (uri /home/david/Escritorio/Electronics/kicad_simbolos/linear.lib))
     (library (logical SparkFun-Boards)
