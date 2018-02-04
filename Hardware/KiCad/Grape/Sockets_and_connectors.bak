@@ -1212,7 +1212,7 @@ F 1 "I2C" V 10000 5100 50  0000 C CNN
 F 2 "Connectors_JST:JST_PH_S4B-PH-K_04x2.00mm_Angled" H 9900 5100 50  0001 C CNN
 F 3 "" H 9900 5100 50  0001 C CNN
 	1    9900 5100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9700 4950 9600 4950
