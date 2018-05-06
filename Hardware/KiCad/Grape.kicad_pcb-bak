@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 266)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -71,7 +71,7 @@
     (pad_to_mask_clearance 0.05)
     (pad_to_paste_clearance -0.04)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFF9F)
     (pcbplotparams
       (layerselection 0x3ffff_80000001)
       (usegerberextensions true)
@@ -1489,8 +1489,8 @@
       (net 69 "Net-(J19-Pad1)"))
     (pad 3 thru_hole circle (at -3.81 5.08) (size 4.8 4.8) (drill oval 2.54 1.02) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Connectors.3dshapes/JACK_ALIM.wrl
-      (at (xyz -0.24 0 0))
+    (model ${KIPRJMOD}/3d_models/JACK_ALIM.wrl
+      (at (xyz -0.25 0 0))
       (scale (xyz 0.8 0.8 0.8))
       (rotate (xyz 0 0 0))
     )
