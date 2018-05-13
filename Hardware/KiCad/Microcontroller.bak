@@ -1,248 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:5050_ws2811
-LIBS:a4988-module
-LIBS:ac-dc
-LIBS:acs712
-LIBS:actel
-LIBS:adafruit
-LIBS:adc-dac
-LIBS:adxl345
-LIBS:allegro
-LIBS:Altera
-LIBS:AMS1117
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:ant
-LIBS:at24c64
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:bc56-12EWA
-LIBS:bosch
-LIBS:Bosch
-LIBS:brooktre
-LIBS:CH340G_D-SUN-V3.0-cache
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:Connector
-LIBS:contrib
-LIBS:cp2103
-LIBS:CP2102
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:dht11
-LIBS:digital-audio
-LIBS:diode
-LIBS:Diode
-LIBS:display
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:er-oled-ssd1306
-LIBS:ESD_Protection
-LIBS:esp8266ex
-LIBS:esp8266-module
-LIBS:ESP8266
-LIBS:Espressif
-LIBS:fe
-LIBS:FPGA_Actel
-LIBS:frizzy_ICs
-LIBS:ft232rq
-LIBS:ftdi
-LIBS:Gajda_opto
-LIBS:GeekAmmo
-LIBS:gennum
-LIBS:graphic
-LIBS:Graphic
-LIBS:GS6300
-LIBS:gy-a4988_module
-LIBS:hc11
-LIBS:hc541
-LIBS:hc-05
-LIBS:HC164
-LIBS:hlk-rm04
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:irf7907
-LIBS:isp_6p
-LIBS:l298n
-LIBS:L9110
-LIBS:LargeKickstarter
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:LilyPad-Wearables
-LIBS:linear
-LIBS:LM2575
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:logo
-LIBS:logo-azura-wrench
-LIBS:lt1129cst
-LIBS:M25P05
-LIBS:max
-LIBS:max1538
-LIBS:maxim
-LIBS:mcp1640
-LIBS:mcp1640b
-LIBS:mcp73831
-LIBS:MCP3208
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:mechanical
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:miniusb
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:mp2109dq
-LIBS:MP2307DN
-LIBS:mpu9250
-LIBS:msp430
-LIBS:na10-psu
-LIBS:nordicsemi
-LIBS:nrf24l01
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:OF5032
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:pl2303
-LIBS:pogopin
-LIBS:power
-LIBS:powerint
-LIBS:powerjack
-LIBS:Power_Management
-LIBS:pspice
-LIBS:pt4115
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:relays
-LIBS:RF_Bluetooth
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:RJ45-ENCODER
-LIBS:rtl8196
-LIBS:rv3029c2
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:smd oscillator
-LIBS:songle_relay
-LIBS:SparkFun-Aesthetics
-LIBS:SparkFun-AnalogIC
-LIBS:SparkFun-Boards
-LIBS:SparkFun-Capacitors
-LIBS:SparkFun-Connectors
-LIBS:SparkFun-DigitalIC
-LIBS:SparkFun-DiscreteSemi
-LIBS:SparkFun-Displays
-LIBS:SparkFun-Electromechanical
-LIBS:SparkFun-FreqCtrl
-LIBS:SparkFun-LED
-LIBS:SparkFun-Passives
-LIBS:SparkFun-PowerIC
-LIBS:SparkFun-Resistors
-LIBS:SparkFun-Retired
-LIBS:SparkFun-RF
-LIBS:SparkFun-Sensors
-LIBS:spiflash_16m
-LIBS:st1s10
-LIBS:stc12c5a60s2
-LIBS:stepper_drivers
-LIBS:stm8
-LIBS:stm32
-LIBS:STM32F100RBT6B
-LIBS:stpdn
-LIBS:supertex
-LIBS:Switch
-LIBS:switches
-LIBS:tcs3200d
-LIBS:tda5144
-LIBS:Teensy_3_and_LC_Series_Boards_v1.1
-LIBS:test
-LIBS:texas
-LIBS:texas-msp
-LIBS:tlv70233
-LIBS:tp4056
-LIBS:transf
-LIBS:Transformer
-LIBS:Transistor
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ts812c
-LIBS:ttl_ieee
-LIBS:usb_a
-LIBS:usb-a-pcb
-LIBS:usb_ax2
-LIBS:User-Submitted
-LIBS:Valve
-LIBS:valves
-LIBS:video
-LIBS:w25q32bv
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:xc3s100etq144
-LIBS:xc3s500evq100
-LIBS:xc6slx9-tqg144
-LIBS:XC9572-TQ100
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx_spartan3_virtex4_and_5
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
-LIBS:рэс-49
-LIBS:тпг-1
-LIBS:Grape-cache
+LIBS:Grape
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -263,7 +20,7 @@ U 1 1 5A5C2AAB
 P 4250 3850
 F 0 "U4" H 3450 5180 50  0000 L BNN
 F 1 "ATMEGA328P_TQFP" H 3450 2550 50  0000 L BNN
-F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 4280 4000 20  0001 C CNN
+F 2 "lib_sch:TQFP-32_7x7mm_Pitch0.8mm" H 4280 4000 20  0001 C CNN
 F 3 "" H 4250 3850 60  0001 C CNN
 	1    4250 3850
 	1    0    0    -1  
@@ -273,8 +30,8 @@ L C_Small C5
 U 1 1 5A5C2C21
 P 1700 3550
 F 0 "C5" H 1710 3620 50  0000 L CNN
-F 1 "0.1uF" H 1710 3470 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1700 3550 50  0001 C CNN
+F 1 "100nF" H 1710 3470 50  0000 L CNN
+F 2 "lib_sch:C_0603" H 1700 3550 50  0001 C CNN
 F 3 "" H 1700 3550 50  0001 C CNN
 	1    1700 3550
 	1    0    0    -1  
@@ -285,7 +42,7 @@ U 1 1 5A5C2C40
 P 5300 5150
 F 0 "D2" H 5250 5275 50  0000 L CNN
 F 1 "YELLOW" H 5200 5050 50  0000 L CNN
-F 2 "LEDs:LED_0603" V 5300 5150 50  0001 C CNN
+F 2 "lib_sch:LED_0603" V 5300 5150 50  0001 C CNN
 F 3 "" V 5300 5150 50  0001 C CNN
 	1    5300 5150
 	1    0    0    -1  
@@ -296,7 +53,7 @@ U 1 1 5A5C2C73
 P 2950 2450
 F 0 "R3" H 2980 2470 50  0000 L CNN
 F 1 "10k" H 2980 2410 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 2950 2450 50  0001 C CNN
+F 2 "lib_sch:R_0805" H 2950 2450 50  0001 C CNN
 F 3 "" H 2950 2450 50  0001 C CNN
 	1    2950 2450
 	1    0    0    -1  
@@ -307,7 +64,7 @@ U 1 1 5A5C2C9C
 P 2950 3750
 F 0 "Y1" V 2750 3700 50  0000 L CNN
 F 1 "16MHz" V 3150 3650 50  0000 L CNN
-F 2 "Clocks:RESONATOR-SMD-3.2X1.3" H 2925 3750 50  0001 C CNN
+F 2 "lib_sch:RESONATOR-SMD-3.2X1.3" H 2925 3750 50  0001 C CNN
 F 3 "" H 2925 3750 50  0001 C CNN
 	1    2950 3750
 	0    1    1    0   
@@ -400,7 +157,7 @@ U 1 1 5A5C32D8
 P 2100 2650
 F 0 "S2" H 2000 2750 50  0000 L BNN
 F 1 "RESET" H 2000 2550 50  0000 L BNN
-F 2 "Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS" H 2130 2800 20  0001 C CNN
+F 2 "lib_sch:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS" H 2130 2800 20  0001 C CNN
 F 3 "" H 2100 2650 60  0001 C CNN
 	1    2100 2650
 	1    0    0    -1  
@@ -448,8 +205,8 @@ L C_Small C6
 U 1 1 5A5C3D11
 P 2400 2450
 F 0 "C6" H 2410 2520 50  0000 L CNN
-F 1 "0.1uF" H 2410 2370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2400 2450 50  0001 C CNN
+F 1 "100nF" H 2410 2370 50  0000 L CNN
+F 2 "lib_sch:C_0603" H 2400 2450 50  0001 C CNN
 F 3 "" H 2400 2450 50  0001 C CNN
 	1    2400 2450
 	1    0    0    -1  
@@ -555,7 +312,7 @@ U 1 1 5A5C4E73
 P 5650 5150
 F 0 "R2" V 5550 5100 50  0000 L CNN
 F 1 "1k" V 5750 5100 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 5650 5150 50  0001 C CNN
+F 2 "lib_sch:R_0805" H 5650 5150 50  0001 C CNN
 F 3 "" H 5650 5150 50  0001 C CNN
 	1    5650 5150
 	0    1    1    0   
@@ -573,7 +330,7 @@ U 1 1 5A5C52EB
 P 5100 6700
 F 0 "C14" H 5110 6770 50  0000 L CNN
 F 1 "10nF" H 5110 6620 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5100 6700 50  0001 C CNN
+F 2 "lib_sch:C_0603" H 5100 6700 50  0001 C CNN
 F 3 "" H 5100 6700 50  0001 C CNN
 	1    5100 6700
 	1    0    0    -1  
@@ -584,7 +341,7 @@ U 1 1 5A5C55A3
 P 5400 6700
 F 0 "C13" H 5410 6770 50  0000 L CNN
 F 1 "100nF" H 5410 6620 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5400 6700 50  0001 C CNN
+F 2 "lib_sch:C_0603" H 5400 6700 50  0001 C CNN
 F 3 "" H 5400 6700 50  0001 C CNN
 	1    5400 6700
 	1    0    0    -1  
@@ -595,7 +352,7 @@ U 1 1 5A5C55D9
 P 5700 6700
 F 0 "C12" H 5710 6770 50  0000 L CNN
 F 1 "1uF" H 5710 6620 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5700 6700 50  0001 C CNN
+F 2 "lib_sch:C_0603" H 5700 6700 50  0001 C CNN
 F 3 "" H 5700 6700 50  0001 C CNN
 	1    5700 6700
 	1    0    0    -1  
@@ -646,7 +403,7 @@ U 1 1 5A5C5C11
 P 6200 6750
 F 0 "D4" H 6150 6875 50  0000 L CNN
 F 1 "PURPLE" H 6100 6650 50  0000 L CNN
-F 2 "LEDs:LED_0603" V 6200 6750 50  0001 C CNN
+F 2 "lib_sch:LED_0603" V 6200 6750 50  0001 C CNN
 F 3 "" V 6200 6750 50  0001 C CNN
 	1    6200 6750
 	0    -1   -1   0   
@@ -657,7 +414,7 @@ U 1 1 5A5C5DC5
 P 6200 6450
 F 0 "R8" V 6100 6400 50  0000 L CNN
 F 1 "1k" V 6300 6400 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 6200 6450 50  0001 C CNN
+F 2 "lib_sch:R_0805" H 6200 6450 50  0001 C CNN
 F 3 "" H 6200 6450 50  0001 C CNN
 	1    6200 6450
 	-1   0    0    1   
@@ -696,7 +453,7 @@ U 1 1 5A5C633B
 P 8700 3550
 F 0 "J3" H 8320 4580 50  0000 L BNN
 F 1 "ARDUINO_R3" H 8300 2050 50  0000 L BNN
-F 2 "Boards:ARDUINO_R3" H 8730 3700 20  0001 C CNN
+F 2 "lib_sch:ARDUINO_R3" H 8730 3700 20  0001 C CNN
 F 3 "" H 8700 3550 60  0001 C CNN
 	1    8700 3550
 	1    0    0    -1  
