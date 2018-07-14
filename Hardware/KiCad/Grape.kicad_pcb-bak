@@ -97,7 +97,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../../../Line-follower-sensor/gerber/))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
