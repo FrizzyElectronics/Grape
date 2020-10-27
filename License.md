@@ -9,7 +9,7 @@ Frizzy Electronics usa dos tipos de licencias para nuestros archivos. Uno para h
 Hardware
 ---------
 
-**El hardware de Frizzy Electronics esta bajo [Creative Commons Share-alike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).**
+**El hardware, documentación y recursos de Frizzy Electronics esta bajo [Creative Commons Share-alike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).**
 
 Aviso: Esto es un breve resumen (no sustituible) por la [licencia](http://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
