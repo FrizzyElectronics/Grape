@@ -1,6 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Grape
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:Grape-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MOSFET-NCHANNEL2N7002PW Q1
+L Grape:MOSFET-NCHANNEL2N7002PW Q1
 U 1 1 5A5B8C16
 P 8050 3850
 F 0 "Q1" V 7850 3700 50  0000 L BNN
@@ -26,7 +26,7 @@ F 3 "" H 8050 3850 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Polyfuse_Small F2
+L Grape:Polyfuse_Small F2
 U 1 1 5A5B942E
 P 3350 3450
 F 0 "F2" V 3275 3450 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 3350 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R12
+L Grape:R_Small R12
 U 1 1 5A5B9487
 P 3550 3750
 F 0 "R12" V 3450 3600 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 3550 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CP1_Small C3
+L Grape:CP1_Small C3
 U 1 1 5A5B962D
 P 4550 4300
 F 0 "C3" H 4560 4370 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 4550 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Small_ALT LED1
+L Grape:LED_Small_ALT LED1
 U 1 1 5A5B9670
 P 9100 4250
 F 0 "LED1" H 9150 4150 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "" V 9100 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L USB_MICROB_PLUGCONN-11752 J1
+L Grape:USB_MICROB_PLUGCONN-11752 J1
 U 1 1 5A5B97D7
 P 2300 3850
 F 0 "J1" H 2110 4170 50  0000 L BNN
@@ -81,7 +81,7 @@ F 3 "" H 2300 3850 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L FT231XS U1
+L Grape:FT231XS U1
 U 1 1 5A5B991A
 P 6550 4050
 F 0 "U1" H 6000 4850 50  0000 L CNN
@@ -92,7 +92,7 @@ F 3 "" H 6550 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L Grape:GND #PWR01
 U 1 1 5A5B9BEF
 P 2750 4500
 F 0 "#PWR01" H 2750 4250 50  0001 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 2750 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L Grape:GND #PWR02
 U 1 1 5A5B9C19
 P 1950 3950
 F 0 "#PWR02" H 1950 3700 50  0001 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 1950 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L Grape:C_Small C4
 U 1 1 5A5B9CAA
 P 3050 4300
 F 0 "C4" H 3060 4370 50  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "" H 3050 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L Grape:GND #PWR03
 U 1 1 5A5B9DDB
 P 3050 4500
 F 0 "#PWR03" H 3050 4250 50  0001 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 3050 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R13
+L Grape:R_Small R13
 U 1 1 5A5BA086
 P 3550 3850
 F 0 "R13" V 3650 3700 50  0000 L CNN
@@ -148,7 +148,7 @@ F 3 "" H 3550 3850 50  0001 C CNN
 $EndComp
 NoConn ~ 2600 3950
 $Comp
-L C_Small C20
+L Grape:C_Small C20
 U 1 1 5A5BA37A
 P 3650 4300
 F 0 "C20" H 3450 4400 50  0000 L CNN
@@ -159,7 +159,7 @@ F 3 "" H 3650 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C19
+L Grape:C_Small C19
 U 1 1 5A5BA405
 P 3800 4300
 F 0 "C19" H 3850 4400 50  0000 L CNN
@@ -170,7 +170,7 @@ F 3 "" H 3800 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L Grape:GND #PWR04
 U 1 1 5A5BA69F
 P 3650 4500
 F 0 "#PWR04" H 3650 4250 50  0001 C CNN
@@ -181,7 +181,7 @@ F 3 "" H 3650 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L Grape:GND #PWR05
 U 1 1 5A5BA6CE
 P 3800 4500
 F 0 "#PWR05" H 3800 4250 50  0001 C CNN
@@ -192,7 +192,7 @@ F 3 "" H 3800 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L Grape:C_Small C2
 U 1 1 5A5BAC9D
 P 4150 4300
 F 0 "C2" H 4160 4370 50  0000 L CNN
@@ -203,7 +203,7 @@ F 3 "" H 4150 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L Grape:GND #PWR06
 U 1 1 5A5BAD72
 P 4150 4500
 F 0 "#PWR06" H 4150 4250 50  0001 C CNN
@@ -214,7 +214,7 @@ F 3 "" H 4150 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L Grape:GND #PWR07
 U 1 1 5A5BB0A6
 P 4550 4500
 F 0 "#PWR07" H 4550 4250 50  0001 C CNN
@@ -239,7 +239,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 3650 2850 3450
 Wire Wire Line
-	2850 3450 3250 3450
+	2850 3450 3050 3450
 Wire Wire Line
 	3050 4200 3050 3450
 Connection ~ 3050 3450
@@ -258,9 +258,9 @@ Wire Wire Line
 Wire Wire Line
 	3850 4050 3850 3750
 Wire Wire Line
-	3650 3750 5850 3750
+	3650 3750 3850 3750
 Wire Wire Line
-	3650 3850 5850 3850
+	3650 3850 3900 3850
 Wire Wire Line
 	3900 3850 3900 4150
 Wire Wire Line
@@ -274,7 +274,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 3450 4150 4200
 Wire Wire Line
-	3450 3450 5350 3450
+	3450 3450 3550 3450
 Wire Wire Line
 	3550 3450 3550 3350
 Connection ~ 3550 3450
@@ -291,7 +291,7 @@ Wire Wire Line
 	5350 3050 5350 3450
 Connection ~ 4550 3450
 $Comp
-L C_Small C1
+L Grape:C_Small C1
 U 1 1 5A5BB3AE
 P 5600 4300
 F 0 "C1" H 5610 4370 50  0000 L CNN
@@ -302,7 +302,7 @@ F 3 "" H 5600 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L Grape:GND #PWR08
 U 1 1 5A5BB45B
 P 5600 4500
 F 0 "#PWR08" H 5600 4250 50  0001 C CNN
@@ -315,7 +315,7 @@ $EndComp
 Wire Wire Line
 	5600 4400 5600 4500
 Wire Wire Line
-	5600 2950 5600 4200
+	5600 2950 5600 3100
 Wire Wire Line
 	5600 4050 5850 4050
 Wire Wire Line
@@ -328,7 +328,7 @@ Wire Wire Line
 Connection ~ 5600 3450
 Connection ~ 5600 3100
 $Comp
-L +3.3V #PWR09
+L Grape:+3.3V #PWR09
 U 1 1 5A5BB5E3
 P 5600 2950
 F 0 "#PWR09" H 5600 2800 50  0001 C CNN
@@ -339,7 +339,7 @@ F 3 "" H 5600 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L Grape:GND #PWR010
 U 1 1 5A5BB73F
 P 6550 5100
 F 0 "#PWR010" H 6550 4850 50  0001 C CNN
@@ -352,7 +352,7 @@ $EndComp
 Wire Wire Line
 	6450 4950 6450 5000
 Wire Wire Line
-	6450 5000 6650 5000
+	6450 5000 6550 5000
 Wire Wire Line
 	6550 5000 6550 5100
 Wire Wire Line
@@ -366,7 +366,7 @@ NoConn ~ 7250 3950
 NoConn ~ 7250 4050
 NoConn ~ 7250 4150
 $Comp
-L R_Small R5
+L Grape:R_Small R5
 U 1 1 5A5BBBAB
 P 7800 2900
 F 0 "R5" V 7850 2700 50  0000 L CNN
@@ -377,7 +377,7 @@ F 3 "" H 7800 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R6
+L Grape:R_Small R6
 U 1 1 5A5BBD20
 P 7800 3050
 F 0 "R6" V 7900 2900 50  0000 L CNN
@@ -408,7 +408,7 @@ RX
 Text GLabel 8300 3050 2    39   Input ~ 0
 TX
 $Comp
-L LED_Small_ALT LED2
+L Grape:LED_Small_ALT LED2
 U 1 1 5A5BC688
 P 9350 4250
 F 0 "LED2" H 9400 4150 50  0000 L CNN
@@ -427,7 +427,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 4550 7250 4550
 $Comp
-L R_Small R4
+L Grape:R_Small R4
 U 1 1 5A5BC7D4
 P 9100 3850
 F 0 "R4" V 9150 3950 50  0000 L CNN
@@ -438,7 +438,7 @@ F 3 "" H 9100 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R1
+L Grape:R_Small R1
 U 1 1 5A5BC864
 P 9350 3850
 F 0 "R1" V 9400 3950 50  0000 L CNN
@@ -453,7 +453,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 3950 9350 4150
 $Comp
-L +5V #PWR011
+L Grape:+5V #PWR011
 U 1 1 5A5BCDBB
 P 9100 3650
 F 0 "#PWR011" H 9100 3500 50  0001 C CNN
@@ -464,7 +464,7 @@ F 3 "" H 9100 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR012
+L Grape:+5V #PWR012
 U 1 1 5A5BCE2C
 P 9350 3650
 F 0 "#PWR012" H 9350 3500 50  0001 C CNN
@@ -479,9 +479,9 @@ Wire Wire Line
 Wire Wire Line
 	9100 3650 9100 3750
 Wire Wire Line
-	7250 3850 7850 3850
+	7250 3850 7800 3850
 $Comp
-L R_Small R14
+L Grape:R_Small R14
 U 1 1 5A5BD495
 P 7800 3650
 F 0 "R14" V 7900 3450 50  0000 L CNN
@@ -492,7 +492,7 @@ F 3 "" H 7800 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R15
+L Grape:R_Small R15
 U 1 1 5A5BD4FF
 P 8350 3650
 F 0 "R15" V 8250 3550 50  0000 L CNN
@@ -506,12 +506,12 @@ Wire Wire Line
 	7800 3750 7800 3850
 Connection ~ 7800 3850
 Wire Wire Line
-	8250 3850 8450 3850
+	8250 3850 8350 3850
 Wire Wire Line
 	8350 3850 8350 3750
 Connection ~ 8350 3850
 $Comp
-L +5V #PWR013
+L Grape:+5V #PWR013
 U 1 1 5A5BD7FA
 P 8350 3450
 F 0 "#PWR013" H 8350 3300 50  0001 C CNN
@@ -524,7 +524,7 @@ $EndComp
 Wire Wire Line
 	8350 3450 8350 3550
 $Comp
-L +3.3V #PWR014
+L Grape:+3.3V #PWR014
 U 1 1 5A5BDBB8
 P 7800 3400
 F 0 "#PWR014" H 7800 3250 50  0001 C CNN
@@ -535,7 +535,7 @@ F 3 "" H 7800 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 3400 7800 3550
+	7800 3400 7800 3500
 Wire Wire Line
 	7800 3500 8050 3500
 Wire Wire Line
@@ -547,7 +547,7 @@ Text GLabel 3550 3350 1    39   Input ~ 0
 USB_5V
 $Bitmap
 Pos 10850 6200
-Scale 0,950000
+Scale 0.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 C1 00 00 00 8F 08 06 00 00 00 43 10 BF 
 80 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 20 00 49 44 41 54 78 9C ED 9D 7F 7C DB 
@@ -1007,7 +1007,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 7250 6700
-Scale 0,950000
+Scale 0.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 91 00 00 00 36 08 06 00 00 00 C7 C1 7B 
 75 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 0B 20 49 44 41 54 78 9C ED 9D 7F 6C 1B 
@@ -1106,7 +1106,7 @@ $EndBitmap
 Text GLabel 6500 6800 1    39   Input ~ 0
 USB_5V
 $Comp
-L PWR_FLAG #FLG015
+L Grape:PWR_FLAG #FLG015
 U 1 1 5A5DCFF9
 P 6500 6950
 F 0 "#FLG015" H 6500 7025 50  0001 C CNN
@@ -1128,4 +1128,30 @@ Wire Bus Line
 	9750 5450 9750 2550
 Text Notes 1850 2750 0    59   ~ 0
 USB UART\n
+Wire Wire Line
+	3050 3450 3250 3450
+Wire Wire Line
+	3850 3750 5850 3750
+Wire Wire Line
+	3900 3850 5850 3850
+Wire Wire Line
+	3550 3450 4150 3450
+Wire Wire Line
+	4150 3450 4550 3450
+Wire Wire Line
+	4550 3450 5350 3450
+Wire Wire Line
+	5600 4050 5600 4200
+Wire Wire Line
+	5600 3450 5600 4050
+Wire Wire Line
+	5600 3100 5600 3450
+Wire Wire Line
+	6550 5000 6650 5000
+Wire Wire Line
+	7800 3850 7850 3850
+Wire Wire Line
+	8350 3850 8450 3850
+Wire Wire Line
+	7800 3500 7800 3550
 $EndSCHEMATC

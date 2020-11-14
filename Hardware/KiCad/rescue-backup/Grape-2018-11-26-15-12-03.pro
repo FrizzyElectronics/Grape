@@ -1,4 +1,4 @@
-update=lun 26 nov 2018 15:12:05 CET
+update=13/05/2018 14:13:02
 last_client=kicad
 [schematic_editor]
 version=1
@@ -13,3 +13,5 @@ LabSize=60
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=lib_sch/Grape
